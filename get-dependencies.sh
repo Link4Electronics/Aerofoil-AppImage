@@ -35,5 +35,5 @@ make -j$(nproc)
 make install
 #mkdir -p "/usr/share/applications"
 #mkdir "/usr/share/pixmaps"
-cp "Resources/Linux/io.github.elasota.aerofoil.desktop" "/usr/share/applications"
-cp "Resources/Linux/io.github.elasota.aerofoil.svg" "/usr/share/pixmaps"
+cp "../Resources/Linux/io.github.elasota.aerofoil.desktop" "/usr/share/applications"
+cp "../Resources/Linux/io.github.elasota.aerofoil.svg" "/usr/share/pixmaps"
