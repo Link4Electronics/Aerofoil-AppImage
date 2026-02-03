@@ -14,7 +14,7 @@ export DEPLOY_OPENGL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/AerofoilX /usr/lib/aerofoil
-echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/shared' >> ./AppDir/.env
+echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
